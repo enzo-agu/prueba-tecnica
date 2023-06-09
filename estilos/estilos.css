@@ -1,0 +1,260 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&family=Roboto:wght@300&display=swap');
+
+/* Ajuste general para todos los navegadores */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* ---------------------- */
+/* Estilos de encabezado */
+/* -------------------- */
+
+header {
+    display: flex;
+    justify-content: space-around;
+    background-color: #FFFFFF;
+}
+
+header h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+    padding-top: 20px;
+    color: #818DEB;
+}
+
+header input {
+    font-family: 'Inter';
+    color: #818DEB;
+    font-size: 16px;
+    border: 1px solid #818DEB;
+    border-radius: 35px;
+    margin: 30px 0px 30px -10px;
+    padding: 9px 50px 9px 10px;
+    text-align: center;
+    cursor: grab;
+}
+
+::placeholder {
+    color: #818DEB;
+}
+
+header nav ul {
+    margin-left: -100px;
+}
+
+header nav ul li {
+    color: #6D7280;
+    font-size: 16px;
+    display: inline-block;
+    font-family: 'Open Sans', sans-serif;
+    margin: 35px 50px 0px 0px;
+    cursor: grab;
+}
+
+.iniciar-sesion {
+    color: #818DEB;
+    font-size: 16px;
+    background-color: #FFFFFF;
+    border: 1px solid #818DEB;
+    border-radius: 35px;
+    padding: 9px 20px 9px;
+    cursor: grab;
+}
+
+/* ------------------------------------ */
+/* Estilos sección "impulsa tu futuro" */
+/* ----------------------------------- */
+
+.impulsa-tu-futuro {
+    background-color: #f3f5ff;
+}
+
+.titulo-principal {
+    font-family: 'Open Sans', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 60px;
+    text-align: center;
+    padding-top: 8%;
+    color: #2F2F2F
+}
+
+.subtitulo {
+    color: #6D7280;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    letter-spacing: 0.2px;
+    padding-top: 1%;
+
+}
+
+.botones {
+    display: flex;
+    justify-content: space-evenly;
+    gap: 10px;
+    padding: 40px 0 0 0;
+}
+
+.botones .boton-azul {
+    margin-left: 27%;
+    border-radius: 27px;
+    border: 1px solid #818DEB;
+    color: #FFFFFF;
+    background-color: #818DEB;
+    padding: 13px 35px 13px 35px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: grab;
+}
+
+.botones .boton-claro {
+    margin-right: 30%;
+    border-radius: 27px;
+    border: 1px solid #818DEB;
+    background-color: #f3f5ff;
+    color: #818DEB;
+    padding: 13px 65px 13px 55px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 22px;
+    cursor: grab;
+}
+
+.tarjetas {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 12% 0 0 0;
+}
+
+.horas-contenido p {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #818DEB;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #818DEB;
+    border-radius: 15px;
+    padding: 60px 30px 30px 30px;
+    margin-top: -4%;
+    margin-left: -5.5%;
+}
+
+.estudiantes p {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #818DEB;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #818DEB;
+    border-radius: 15px;
+    padding: 60px 25px 50px 25px;
+    margin-top: -4%;
+    margin-left: -7%;
+}
+
+.paises p {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #FFFFFF;
+    color: #818DEB;
+    font-size: 18px;
+    line-height: 20px;
+    text-align: center;
+    position: absolute;
+    border: 1px solid #818DEB;
+    border-radius: 15px;
+    padding: 60px 45px 50px 45px;
+    margin-top: -4%;
+    margin-left: -7%;
+}
+
+/* --------------------------------------------- */
+/* Estilos sección "nuestra propuesta educativa" */
+/* --------------------------------------------- */
+
+.propuesta-educativa div h2 {
+    margin-top: 7%;
+}
+
+.img-propuesta-educativa {
+    text-align: center;
+    padding-top: 70px;
+}
+
+.img-propuesta-educativa img {
+    border-radius: 12px 12px 0px 0px;
+}
+
+/* --------------------------------------------- */
+/* Estilos sección "encunetra tu curso perfecto" */
+/* --------------------------------------------- */
+.botones-encuentra-tu-curso {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.botones-encuentra-tu-curso .boton-academia {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #818DEB;
+    border: 1px solid #818DEB;
+    border-radius: 36px;
+    padding: 13px 35px 13px 35px;
+    color: #F6F6F6;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    cursor: grab;
+}
+
+.botones-encuentra-tu-curso .boton-programacion {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F3FF;
+    color: #5A5A5B;
+    border-radius: 78px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 20px 15px 20px;
+    margin-left: -17%;
+    cursor: grab;
+}
+
+.botones-encuentra-tu-curso .boton-habilidades {
+    font-family: 'Open Sans', sans-serif;
+    background: #F1F3FF;
+    border: none;
+    border-radius: 36px;
+    padding: 13px 35px 13px 35px;
+    color: #5A5A5B;
+    font-weight: 700;
+    font-size: 16px;
+    text-align: center;
+    margin-left: -17%;
+    cursor: grab;
+}
+
+.botones-encuentra-tu-curso .boton-marketing {
+    font-family: 'Open Sans', sans-serif;
+    background-color: #F1F3FF;
+    color: #5A5A5B;
+    border-radius: 78px;
+    border: none;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 22px;
+    padding: 15px 20px 15px 20px;
+    margin-left: -17%;
+    cursor: grab;
+}
